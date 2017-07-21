@@ -1,5 +1,4 @@
 
-<!-- <body style = background-image:"https://image.freepik.com/free-vector/blue-geometric-technological-background_1055-1907.jpg"> -->
 
 <div class="scrollable">
 	<div class="scrollable-content">
@@ -129,17 +128,7 @@
 
 					<p>The $interval service runs a function every specified millisecond.</p>
 
-					<script>
-					var app = angular.module('myApp', []);
-					app.controller('myCtrl', function($scope, $interval) {
-					  $scope.theTime = new Date().toLocaleTimeString();
-					  $interval(function () {
-						  $scope.theTime = new Date().toLocaleTimeString();
-					  }, 1000);
-					});
-					</script>
-					
-					
+
 					<button class="button" ng-click="updateSensor()">
 						Nhấn vô dể cập nhập giá trị cảm biến
 					</div>
@@ -150,4 +139,3 @@
 		</div>
 	</div>
 </div>
-<!-- </body> -->
